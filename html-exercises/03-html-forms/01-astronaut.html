@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <title>Selezione astronauti</title>
+    <meta name="description" content="Testo base">
+    <meta name="author" content="Leonardo">
+</head>
+
+<body>
+    <img src="img/nasalogo.jpg" height="200 " width="400">
+    <h1>Selezione astronauti</h1>
+    <div>
+        <form method="post">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="secondonome">Secondo nome</label>
+            <input type="text" id="secondonome" name="secondonome">
+
+            <label for="cognome">Cognome</label>
+            <input type="text" id="cognome" name="cognome" required>
+
+            <label for="età">Età</label>
+            <input type="number" id="età" name="cognome" età min="18" max="60" required>
+    </div>
+    <div>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="numeroditelefono">Numero di telefono</label>
+        <input type="tel" id="numeroditelefono" name="numeroditelefono" required minlength="8">
+    </div>
+    <div>
+        <label for="comune">Comune di residenza</label>
+        <input type="text" id="comune" name="comune" required>
+        <label for="indirizzo">Indirizzo</label>
+        <input type="text" id="indirizzo" name="indirizzo" required placeholder="Via/Piazza">
+        <label for="numerocivico">Numero civico</label>
+        <input type="text" id="numerocivico" name="numero civico" required>
+    </div>
+    <div>
+        <input type="radio" id="M" name="genere" value="M" required>
+        <label for="M">M</label>
+        <input type="radio" id="F" name="genere" value="F">
+        <label for="F">F</label>
+    </div>
+    <div>
+        <label for="missione">Scegli una missione</label>
+        <select name="missione" id="missione" required>
+            <option value="europa-clipper">Europa Clipper</option>
+            <option value="europa-clipper">Europa Clipper</option>
+            <option value="europa-clipper">Europa Clipper</option>
+            <option value="europa-clipper">Europa Clipper</option>
+            <option value="europa-clipper">Europa Clipper</option>
+            <option value="europa-clipper">Europa Clipper</option>
+            <option value="europa-clipper">Europa Clipper</option>
+        </select>
+    </div>
+    <button type="submit">Send</button>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>
