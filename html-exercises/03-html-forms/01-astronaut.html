@@ -17,7 +17,7 @@
             <input type="text" id="nome" name="nome" required>
 
             <label for="secondonome">Secondo nome</label>
-            <input type="text" id="secondonome" name="secondonome">
+            <input type="text" id="secondonome" name="secondonome" placeholder="Opzionale">
 
             <label for="cognome">Cognome</label>
             <input type="text" id="cognome" name="cognome" required>
@@ -26,16 +26,16 @@
             <input type="number" id="età" name="cognome" età min="18" max="60" required>
     </div>
     <div>
-            <label for="colorecapelli">Colore dei capelli</label>
-            <select name="colorecapelli" id="colorecapelli" required>
-                <option value="biondi">Biondi</option>
-                <option value="castani">Castani</option>
-                <option value="neri">Neri</option>
-            </select>
-            <label for="coloreocchi">Colore degli occhi</label>
-            <input type="color" name="coloreocchi" id="coloreocchi" required>
-            <label for="peso">Peso</label>
-            <input type="number" name="peso" id="peso" placeholder="Kg" required peso max="100">
+        <label for="colorecapelli">Colore dei capelli</label>
+        <select name="colorecapelli" id="colorecapelli" required>
+            <option value="biondi">Biondi</option>
+            <option value="castani">Castani</option>
+            <option value="neri">Neri</option>
+        </select>
+        <label for="coloreocchi">Colore degli occhi</label>
+        <input type="color" name="coloreocchi" id="coloreocchi" required>
+        <label for="peso">Peso</label>
+        <input type="number" name="peso" id="peso" placeholder="Kg" required peso max="100">
     </div>
     <div>
         <label for="email">E-mail</label>
@@ -43,7 +43,8 @@
 
         <label for="numeroditelefono">Numero di telefono</label>
         <input type="tel" id="numeroditelefono" name="numeroditelefono" required minlength="8" pattern="[0-9]+"
-         oninvalid="this.setCustomValidity('In questo campo possono essere utilizzati solo numeri da 0 a 9')" oninput="this.setCustomValidity('')">
+            oninvalid="this.setCustomValidity('In questo campo possono essere utilizzati solo numeri da 0 a 9')"
+            oninput="this.setCustomValidity('')">
     </div>
     <div>
         <label for="comune">Comune di residenza</label>
@@ -52,7 +53,8 @@
         <input type="text" id="indirizzo" name="indirizzo" required placeholder="Via/Piazza">
         <label for="numerocivico">Numero civico</label>
         <input type="text" id="numerocivico" name="numero civico" pattern="[0-9]+"
-        oninvalid="this.setCustomValidity('In questo campo possono essere utilizzati solo numeri da 0 a 9')" oninput="this.setCustomValidity('')">
+            oninvalid="this.setCustomValidity('In questo campo possono essere utilizzati solo numeri da 0 a 9')"
+            oninput="this.setCustomValidity('')">
     </div>
     <div>
         <input type="radio" id="M" name="genere" value="M" required>
@@ -72,7 +74,12 @@
             <option value="euclid">Euclid</option>
         </select>
     </div>
-    <button type="submit">Send</button>
+    <div>
+        <label for="biografia">Scrivi una breve biografia</label>
+        <textarea rows="4" cols="50" name="biograafia" id="biografia" placeholder="Max 255 caratteri" maxlength="250" required></textarea>
+    </div>
+    <button type="submit">Invia</button>
+    <button type="reset">Reset</button>
     </form>
 
 
