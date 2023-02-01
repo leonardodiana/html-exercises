@@ -1,0 +1,21 @@
+h3,p{
+    color: goldenrod; font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: black;
+}
+#title{
+    color: darkgoldenrod; font-size: xx-large; font-family: 'Times New Roman', Times, serif;
+}
+.link{
+    color: red; 
+}
+table{
+    border-color: darkgoldenrod; border-style: groove;
+}
+ul li{
+    color: greenyellow;
+}
+table tr{
+    color: crimson; font-size: larger;
+}
