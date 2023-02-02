@@ -1,0 +1,9 @@
+h1{
+    color: red; font-size: larger;
+}
+.linkinsidelist{
+    color: darkgreen;font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p a{
+    color: aqua; font-family: Lobster;
+}
