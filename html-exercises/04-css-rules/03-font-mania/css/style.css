@@ -1,9 +1,9 @@
-h1{
+h1 a{
     color: red; font-size: larger;
 }
 .linkinsidelist{
     color: darkgreen;font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-p a{
-    color: aqua; font-family: Lobster;
+p{
+    color: aqua; font-family: 'Sofia';
 }
