@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <title>normalize</title>
+    <meta name="description" content="tucano">
+    <meta name="author" content="Leonardo">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+
+
+</head>
+
+<body>
+    <h1>Selezione per dogsitter</h1>
+    <p>Stiamo ricercando un/una dogsitter che dovrà occuparsi delle seguenti mansioni:
+    <ul>
+        <li>Portare il cane a fare una passeggiata tre volte al giorno per almeno 20 minuti.</li>
+        <li>Dare da mangiare al cane la sera alle 20. Troverai il cibo già porzionato in cucina.
+        </li>
+        <li>Spazzolare il cane quotidinamente.</li>
+    </ul>
+
+    </p>
+    <p>Il cane di cui dovrai occuparti è un alano, pertanto verranno presi in considerazione candidati con provata
+        esperienza
+        nell'attività di dogsitting. Di seguito ecco un'immagine del cane <img src="alano.jpeg" width="220" height="300">
+    </p>
+    <h3>Inserisci di seguito i tuoi dati:</h3>
+    <form>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="cognome">Cognome</label>
+        <input type="text" id="cognome" name="cognome" required>
+
+        <label for="età">Età</label>
+        <input type="number" id="età" name="cognome" età min="16" max="30" required>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="cv">CV</label>
+        <input type="file" id="cv" name="cv" required>
+
+        <div>
+            <button type="submit">Invia</button>
+            <button type="reset">Reset</button>
+        </div>
+
+    </form>
+
+    <h3>Per eventuali dubbi puoi contattarmi via email <a href="mailto:leonardo.diana@edu.itspiemonte.it">cliccando
+            qui</a></h3>
+
+
+
+</body>

@@ -4,6 +4,12 @@ h1 a{
 .linkinsidelist{
     color: darkgreen;font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-p{
+p a{
     color: aqua; font-family: 'Sofia';
+}
+body{
+    background-color: darksalmon;
+}
+a:hover{
+    color: dodgerblue;
 }
