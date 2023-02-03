@@ -1,9 +1,16 @@
+body{background-color: #fae6c1;}
 h1 a{
-    color: red; font-size: larger;
+    color: rgb(14, 13, 13); font-size: larger;
 }
 .linkinsidelist{
     color: darkgreen;font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p{
-    color: aqua; font-family: 'Sofia';
+    color: rgb(13, 14, 14); font-family: 'Trade winds';
+}
+p a{
+    font-family: 'Trade winds';
+}
+a:visited{
+    color: crimson;
 }
