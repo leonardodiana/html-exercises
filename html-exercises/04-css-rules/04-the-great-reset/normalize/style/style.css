@@ -1,0 +1,20 @@
+body{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1,h3{
+  color: brown; 
+  font-size: xx-large;
+}
+a:hover{
+  color: crimson;
+}
+a{
+  color: darkorange;
+}
+
+ul li {
+  padding: 5px 10px 5px 25px;
+  list-style: none;
+  margin: 0;
+  vertical-align: middle;
+}
