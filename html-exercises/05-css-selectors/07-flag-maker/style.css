@@ -1,0 +1,52 @@
+td {
+    width: 20px;
+    height: 20px;
+}
+#ita td:nth-of-type(-n+3){
+    background-color: green;
+}
+#ita td:nth-of-type(n+7){
+    background-color: red;
+}
+#ita{
+    border: solid black 3px;
+}
+
+#ita td{
+    background-color: white;
+}
+
+
+#ita:hover
+td:nth-of-type(-n+3){
+    background-color: black;
+}
+#ita:hover td:nth-of-type(n+7){
+    background-color: red;
+}
+#ita:hover td{
+    background-color: yellow;
+}
+
+
+#usa{
+    border: solid black 3px;
+}
+#usa tr:nth-of-type(-n+4) td:nth-of-type(-n+4){
+    background-color: blue;
+    color: white;
+}
+
+#usa tr:nth-of-type(odd){
+    background-color: red;
+}
+
+#usa:hover td:nth-of-type(-n+3){
+    background-color: blue;
+}
+#usa:hover td:nth-of-type(n+7){
+    background-color: red;
+}
+#usa:hover td{
+    background-color: white;
+}
