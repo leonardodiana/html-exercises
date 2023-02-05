@@ -34,12 +34,12 @@ td:nth-of-type(-n+3){
 }
 #usa tr:nth-of-type(-n+4) td:nth-of-type(-n+4){
     background-color: blue;
-    color: white;
 }
 
 #usa tr:nth-of-type(odd){
     background-color: red;
 }
+
 
 #usa:hover td:nth-of-type(-n+3){
     background-color: blue;
@@ -47,6 +47,11 @@ td:nth-of-type(-n+3){
 #usa:hover td:nth-of-type(n+7){
     background-color: red;
 }
+#usa:hover tbody td:nth-of-type(4){
+    background-color: white;
+}
 #usa:hover td{
     background-color: white;
 }
+
+
