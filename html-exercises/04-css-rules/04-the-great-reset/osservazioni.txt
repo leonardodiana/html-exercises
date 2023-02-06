@@ -1,0 +1,8 @@
+1)
+Ho notato delle differenze su Safari per quanto riguarda la parte dei form.
+I form risultano differenti sulla versione destyle.css per quanto riguarda la parte degli input,
+infatti le caselle di testo risultano senza contorno.
+Per quanto riguarda le liste ho dovuto impostare manualmente il rientro per gli elementi <li> nelle versioni reset e destyle
+Lavorare con normalize, dal mio punto di vista, è più facile perchè consente di avere un minimo di impostazioni predefinite che agevolano il lavoro.
+
+2) form e liste

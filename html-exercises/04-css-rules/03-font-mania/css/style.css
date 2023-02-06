@@ -5,12 +5,12 @@ h1 a{
 .linkinsidelist{
     color: darkgreen;font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-p{
-    color: rgb(13, 14, 14); font-family: 'Trade winds';
-}
 p a{
-    font-family: 'Trade winds';
+    color: aqua; font-family: 'Sofia';
 }
-a:visited{
-    color: crimson;
+body{
+    background-color: darksalmon;
+}
+a:hover{
+    color: dodgerblue;
 }

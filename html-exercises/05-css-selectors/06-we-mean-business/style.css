@@ -1,0 +1,9 @@
+thead{
+    background-color: rgb(210, 174, 83);
+}
+tr:nth-of-type(even){
+    background-color: gray;
+}
+tr:hover:not(#header){
+    background-color: rgb(131, 197, 175);
+}
