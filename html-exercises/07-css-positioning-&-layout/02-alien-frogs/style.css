@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+}
+
+.frog-type1-small {
+    background-color: rgb(93, 222, 93);
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    margin: 40px;
+    position: relative;
+    display: inline-block;
+    float: inline-end;
+}
+
+.frog-type2-small {
+    background-color: rgb(255, 137, 41);
+    border-radius: 40px;
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    margin: 40px;
+    display: inline-block;
+    position: relative;
+    float: inline-end;
+}
+
+.frog-type1-big {
+    background-color: rgb(93, 222, 93);
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    margin: 40px;
+    display: inline-block;
+    position: relative;
+    float: inline-end;
+}
+
+.frog-type2-big {
+    background-color: rgb(255, 137, 41);
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    margin: 40px;
+    display: inline-block;
+    position: relative;
+    float: inline-end;
+}
+
+.frog-type1-small::before {
+    border: 2px solid black;
+    width: 30px;
+    height: 25px;
+    padding: 15px;
+    border-radius: 50%;
+    content: "o";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    display: inline-block;
+    background-color: rgb(28, 187, 28);
+    color: white;
+}
+
+body .frog-type1-small::after {
+    border: 2px solid black;
+    width: 30px;
+    height: 25px;
+    padding: 15px;
+    border-radius: 50%;
+    content: "o";
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    display: inline-block;
+    background-color: rgb(28, 187, 28);
+    color: white;
+}
+
+.frog-type2-small::before {
+    border: 2px solid black;
+    width: 30px;
+    height: 25px;
+    padding: 15px;
+    border-radius: 50%;
+    content: "o";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    display: inline-block;
+    background-color: rgb(187, 92, 28);
+    color: white;
+}
+
+body .frog-type2-small::after {
+    border: 2px solid black;
+    width: 30px;
+    height: 25px;
+    padding: 15px;
+    border-radius: 50%;
+    content: "o";
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    display: inline-block;
+    background-color: rgb(187, 92, 28);
+    color: white;
+}
+
+.frog-type1-big::before {
+    border: 2px solid black;
+    width: 60px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    content: "o";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    display: inline-block;
+    background-color: rgb(157, 236, 157);
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+body .frog-type1-big::after {
+    border: 2px solid black;
+    width: 60px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    content: "o";
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    display: inline-block;
+    background-color: rgb(157, 236, 157);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.frog-type2-big::before {
+    border: 2px solid black;
+    width: 60px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    content: "o";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    display: inline-block;
+    background-color: rgb(252, 183, 118);
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+body .frog-type2-big::after {
+    border: 2px solid black;
+    width: 60px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    content: "o";
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    display: inline-block;
+    background-color: rgb(252, 183, 118);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.frog-type2-big:hover:after{
+    background-color: black;
+    color: white;
+}
+.frog-type2-big:hover:before{
+    background-color: black;
+    color: white;
+}
+.frog-type1-big:hover:after{
+    background-color: black;
+    color: white;
+}
+.frog-type1-big:hover:before{
+    background-color: black;
+    color: white;
+}
+.frog-type1-small:hover:after{
+    background-color: black;
+    color: white;
+}
+.frog-type1-small:hover:before{
+    background-color: black;
+    color: white;
+}
+.frog-type2-small:hover:after{
+    background-color: black;
+    color: white;
+}
+.frog-type2-small:hover:before{
+    background-color: black;
+    color: white;
+}
