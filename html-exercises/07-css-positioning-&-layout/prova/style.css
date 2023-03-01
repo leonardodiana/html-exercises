@@ -1,0 +1,30 @@
+#content1 {
+    background: #bada55;
+    z-index: 5;
+}
+
+#content2 {
+    background: #559eda;
+    z-index: 2;
+}
+#content1, #content2{
+    position: absolute;
+    top: 5px;
+}
+.contaner1, .contaner2{
+    width: 200px;
+    border: 1px solid black;
+    height: 100px;
+    position: absolute;
+}
+.contaner1{
+    top: 5px;
+    background-color: beige;
+    z-index: 1;
+}
+.contaner2{
+    top: 16px;
+    z-index: 2;
+    background-color: rgb(255, 0, 221);
+}
+
