@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: black;
+    margin: 40px;
+    color: white;
+    font-size: 30px;
+}
+
+li{
+    display: inline-block;
+    width: 14%;
+}
