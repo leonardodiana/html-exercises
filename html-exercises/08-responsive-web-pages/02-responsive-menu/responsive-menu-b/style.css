@@ -3,13 +3,53 @@
 }
 
 nav{
+    overflow: hidden;
+    width: 100%;
     background-color: black;
-    margin: 40px;
-    color: white;
-    font-size: 30px;
 }
 
-li{
-    display: inline-block;
-    width: 14%;
+a{
+    display: block;
+    font-size: 30px;
+    width: 13%;
+    margin: 0;
+    color: white;
+    text-align: center;
+    float:left
+}
+@media  screen and (min-width: 400px)and (max-width: 599px){
+    
+    nav a{  
+         float:left;  
+         width: 100%;    
+     }
+ }
+ @media screen and (min-width: 600px) and (max-width: 799px){
+    
+    nav a{
+         float:left; 
+         width: 100%;
+ 
+     }
+ }
+ @media screen and (min-width: 800px) and (max-width: 999px){
+    
+    nav a{ 
+         float:left ;     
+         font-size: 20px;
+     }
+ }
+ @media screen and (min-width: 1000px) and (max-width: 1199px){
+    
+    nav a{   
+        float:left;   
+        font-size: 24px;  
+    }
+}
+@media screen and (min-width: 1200px){
+    
+    nav a{
+        float:left;   
+        font-size: 30px;   
+    }
 }
