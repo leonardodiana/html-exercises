@@ -1,3 +1,14 @@
+/**
+ * @file: script.js
+ * @author: Leonardo Diana
+ *  Unit 04 Exercise 03
+ */
+
+/**
+ * function thaat returns a grade for the score
+ * @param {number} score
+ * @returns {string} grade
+ */
 function assignGrade(score){
     let grade;
     if (score>90){

@@ -1,3 +1,13 @@
+/**
+ * @file: script.js
+ * @author: Leonardo Diana
+ *  Unit 04 Exercise 02
+ */
+
+/**
+ * function that return "hello world in 3 different languages"
+ * @param {string} code
+ */
 function helloWorld(code){
     if (code=="en"){
         console.log("Hello world!");

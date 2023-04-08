@@ -1,3 +1,14 @@
+/**
+ * @file: script.js
+ * @author: Leonardo Diana
+ *  Unit 04 Exercise 01
+ */
+
+/**
+ * function that returns the greater number
+ * @param {number}num1
+ * @param {number}num2
+ */
 function greaterNum(num1, num2) {
     let max=num1; 
     if (num2>num1){
