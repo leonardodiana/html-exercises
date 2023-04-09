@@ -1,3 +1,8 @@
+/**
+ * @file: script.js
+ * @author: Leonardo Diana
+ *  Unit 03 Exercise 01
+ */
 function addNumbers(num1, num2) {
     let localResult = num1 + num2;
     console.log("The local result is: " + localResult);

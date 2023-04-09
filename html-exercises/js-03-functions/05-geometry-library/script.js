@@ -1,3 +1,8 @@
+/**
+ * @file: script.js
+ * @author: Leonardo Diana
+ *  Unit 03 Exercise 05
+ */
 function calculateCircumference(radius){
     const pi = 3.14;
     circumference=2*pi*radius;
