@@ -1,3 +1,8 @@
+/**
+ * @file: script.js
+ * @author: Leonardo Diana
+ *  Unit 06 Exercise 01
+ */
 let firstChoices = [];
 firstChoices.push('red',
     'yellow',
