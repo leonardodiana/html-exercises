@@ -1,7 +1,7 @@
 /**
  * @file: script.js
  * @author: Leonardo Diana
- *  Unit 08 Exercise 0
+ *  Unit 08 Exercise 02
  */
 
 /**
