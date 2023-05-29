@@ -8,8 +8,10 @@ setFavorites.textContent = "Football";
 let setHometown = document.getElementById("hometown");
 setHometown.textContent = "San Salvatore m.to";
 
-
-
+let setLi= document.getElementsByTagName("li")
+for(const element of setLi){
+    element.className="list-item"
+}
 
 body = document.body;
 let newImg = document.createElement('img');
