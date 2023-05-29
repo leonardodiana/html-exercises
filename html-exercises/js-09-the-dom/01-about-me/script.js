@@ -9,6 +9,8 @@ let setHometown = document.getElementById("hometown");
 setHometown.textContent = "San Salvatore m.to";
 
 
+
+
 body = document.body;
 let newImg = document.createElement('img');
 newImg.src = 'maxAll.jpg';
@@ -18,9 +20,8 @@ let link = document.createElement('link')
 link.rel = 'stylesheet';
 link.type = 'text/css';
 link.href = 'style.css';
-let = document.getElementsByTagName('HEAD');
+let head = document.head;
 head.appendChild(link);
-let stylesheet=
-stylesheet.insertRule('#nickname{color: white}',0)
+
 
 
