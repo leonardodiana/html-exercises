@@ -1,5 +1,5 @@
-let setBody = document.body;
-setBody.style.fontFamily = "Arial, sans-serif";
+let body = document.body;
+body.style.fontFamily = "Arial, sans-serif";
 
 let setNickname = document.getElementById("nickname");
 setNickname.textContent = "Leonardo";
@@ -8,11 +8,19 @@ setFavorites.textContent = "Football";
 let setHometown = document.getElementById("hometown");
 setHometown.textContent = "San Salvatore m.to";
 
-let setLi = document.getElementsByTagName("li");
-let i;
-for (i = 0; i < setLi.length; i++) {
-    setLi.className[i]= "list-item";
-}
+
+body = document.body;
 let newImg = document.createElement('img');
-newImg.src = "maxAll.png";
+newImg.src = 'maxAll.jpg';
+newImg.style.border = '1px solid black';
 body.appendChild(newImg);
+let link = document.createElement('link')
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = 'style.css';
+let = document.getElementsByTagName('HEAD');
+head.appendChild(link);
+let stylesheet=
+stylesheet.insertRule('#nickname{color: white}',0)
+
+
