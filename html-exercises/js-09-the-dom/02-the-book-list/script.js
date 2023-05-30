@@ -47,3 +47,12 @@ for (let i=0; i<liCollection.length; i++) {
     }
 }
 
+function setColorRead(){
+    for (let i=0; i<books.length; i++) {
+        if(books[i].alreadyRead==false){
+        liCollection[i].style.color='blue';
+        }
+    }
+}
+
+setTimeout(setColorRead, 5000);
